@@ -1,0 +1,4 @@
+requests
+telebot
+sqlite3
+time
