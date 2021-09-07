@@ -1,5 +1,6 @@
 import sqlite3, requests, telebot
 from time import sleep, time, strftime, localtime
+token = '1642648176:AAHQ6qHVr19eXoBmqAJsbcGrmuom6BGUpyQ'
 bot = telebot.TeleBot(token)
 
 def case(text):
