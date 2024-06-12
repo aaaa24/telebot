@@ -5,7 +5,7 @@ bot = telebot.TeleBot(token)
 
 def case(text):
     r = requests.get('https://ws3.morpher.ru/russian/declension', params={'s':text, 
-     'format':'json',  'flags':'Inanimate',  'token':'0b541c78-c09e-4153-82b8-9b24772e0188'})
+     'format':'json',  'flags':'Inanimate',  'token':''})
     if r.status_code == 200:
         r = r.json()['П']
     else:
